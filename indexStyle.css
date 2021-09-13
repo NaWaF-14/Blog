@@ -1,0 +1,64 @@
+.conatiner {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25vw 25vw 25vw;
+  grid-template-rows: 40vh 40vh 40vh;
+  grid-area: "top top top" "d1 d2 d3";
+  grid-gap: 15px;
+  border: 2px solid red;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid gray;
+  border-radius: 25px;
+}
+
+.header {
+  background-color: #1c2237;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  width: 100%;
+  height: 200px;
+  margin: 0;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: inherit;
+  padding-top: 20px;
+}
+
+#one {
+  grid-area: "top";
+}
+
+#two {
+  grid-area: "top";
+}
+
+#three {
+  grid-area: "top";
+}
+
+#four {
+  grid-area: "d1";
+}
+
+#five {
+  grid-area: "d2";
+}
+
+#six {
+  grid-area: "d3";
+}
