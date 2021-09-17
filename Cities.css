@@ -22,13 +22,15 @@
 .container {
   display: flex;
   align-items: flex-start;
-  justify-content: left;
+  justify-content: center;
 }
 
 img {
   height: 500px;
   width: 700px;
   border-radius: 25px;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .img-text {
