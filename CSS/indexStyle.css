@@ -1,3 +1,7 @@
+@import url(riyadhStyle.css);
+@import url(jeddahStyle.css);
+@import url(alulaStyle.css);
+
 .box {
   display: flex;
   justify-content: center;
@@ -42,8 +46,8 @@
 @media (min-width: 600px) and (max-width: 900px) {
   .conatiner {
     display: grid;
-    grid-template-rows: 300px 300px;
-    grid-template-columns: 400px 400px;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 300px 300px;
     grid-area: "top top" "top";
     grid-gap: 15px;
     justify-content: center;
@@ -54,8 +58,8 @@
 @media (min-width: 901px) {
   .conatiner {
     display: grid;
-    grid-template-rows: 300px;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 200px;
+    grid-template-columns: 300px 300px 300px;
     grid-area: "top top top";
     grid-gap: 15px;
     justify-content: center;
@@ -64,13 +68,14 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 599px) {
   .conatiner {
     display: grid;
-    grid-template-rows: 320px;
-    grid-template-columns: 400px;
+    grid-template-rows: 300px;
+    grid-template-columns: 250px;
     grid-area: "top" "top" "top";
     grid-gap: 15px;
+    height: 900px;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
